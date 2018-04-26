@@ -41,6 +41,5 @@ end
 
 def sum_array(array)
   #num_of_times_subtract = array.length - 1
-  binding.pry
   array.inject {|sum, n| sum + n}
 end
