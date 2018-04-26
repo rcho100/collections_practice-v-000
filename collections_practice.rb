@@ -43,3 +43,7 @@ def sum_array(array)
   #num_of_times_subtract = array.length - 1
   array.inject {|sum, n| sum + n}
 end
+
+def add_s(array)
+  array.each {|word| word << "s"}
+end
