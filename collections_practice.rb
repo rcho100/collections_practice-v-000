@@ -40,7 +40,6 @@ def find_a(array)
 end
 
 def sum_array(array)
-  #num_of_times_subtract = array.length - 1
   array.inject {|sum, n| sum + n}
 end
 
